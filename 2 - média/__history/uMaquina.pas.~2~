@@ -1,0 +1,35 @@
+unit uMaquina;
+
+interface
+
+uses
+  uIMaquina, Classes, uTroco, Dialogs, SysUtils;
+
+type
+
+  TMaquina = class(TInterfacedObject, IMaquina)
+  public
+    function MontarTroco(pTroco: Double): TList;
+  end;
+
+implementation
+
+uses math;
+
+function TMaquina.MontarTroco(pTroco: Double): TList;
+var
+  lRest : Double;
+  lCedula: TCedula;
+
+begin
+   for lCedula := Low(CValorCedula) to High(CValorCedula) do
+   begin
+
+
+    ShowMessage(FloatToStr(CValorCedula[lCedula]));
+
+   end;
+end;
+
+end.
+

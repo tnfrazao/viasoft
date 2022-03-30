@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/03/30 09:58:36.338,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/30 10:02:44.171,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/03/30 10:09:04.474,C:\Projetos\ViaSoft\Terceiro\Unit2.pas=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/03/30 10:09:12.457,C:\Projetos\ViaSoft\Terceiro\Unit1.pas=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/30 10:09:12.457,C:\Projetos\ViaSoft\Terceiro\Unit1.dfm=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/03/30 10:09:26.929,C:\Projetos\ViaSoft\Terceiro\Network.dproj=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/30 10:34:10.274,C:\Projetos\ViaSoft\Terceiro\uNetWork.pas=C:\Projetos\ViaSoft\Terceiro\Unit2.pas</Transaction>
+    <Transaction>2022/03/30 12:10:08.312,=C:\Projetos\ViaSoft\Terceiro\Unit3.pas</Transaction>
+    <Transaction>2022/03/30 12:11:42.298,C:\Projetos\ViaSoft\Terceiro\uINetWork.pas=C:\Projetos\ViaSoft\Terceiro\Unit3.pas</Transaction>
+    <Transaction>2022/03/30 12:59:31.541,C:\Projetos\ViaSoft\Terceiro\Network.dproj=C:\Projetos\ViaSoft\Terceiro\Network.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,16 @@
+program QS7;
+
+uses
+  Forms,
+  uTroco in 'uTroco.pas',
+  uIMaquina in 'uIMaquina.pas',
+  uMaquina in 'uMaquina.pas',
+  Unit1 in 'Unit1.pas' {Form1};
+
+{$R *.RES}
+
+begin
+  Application.CreateForm(TForm1,Form1);
+  Form1.ShowModal
+end.
+

@@ -1,0 +1,15 @@
+unit uSubstitui;
+
+interface
+
+uses
+  uISubstitui;
+
+type
+
+
+implementation
+
+
+end.
+

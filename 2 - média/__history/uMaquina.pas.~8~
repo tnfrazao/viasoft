@@ -1,0 +1,41 @@
+unit uMaquina;
+
+interface
+
+uses
+  uIMaquina, Classes, uTroco, Dialogs, SysUtils;
+
+type
+
+  TMaquina = class(TInterfacedObject, IMaquina)
+  public
+    function MontarTroco(pTroco: Double): TList;
+  end;
+
+implementation
+
+uses math;
+
+function TMaquina.MontarTroco(pTroco: Double): TList;
+var
+  lRest : Double;
+  lCedula: TCedula;
+begin
+   lRest := pTroco;
+   Result := TList.Create;
+   for lCedula := Low(CValorCedula) to High(CValorCedula) do
+   begin
+      if Trunc(lRest / CValorCedula[lCedula])>= 1 then
+      begin
+        ShowMessage(FloatToStr(Trunc(lRest / CValorCedula[lCedula])) + 'nota de R$' +  IntToStr(CValorCedula[lCedula]));
+        Result.Add(TTroco.Create(lCedula, Trunc(lRest / CValorCedula[lCedula])));
+        lRest := lRest - (Trunc(lRest / CValorCedula[lCedula])*CValorCedula[lCedula]);
+      end;
+
+      if lRest <=0  then
+        Break;
+   end;
+end;
+
+end.
+
